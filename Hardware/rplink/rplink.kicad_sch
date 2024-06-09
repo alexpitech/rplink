@@ -1,5 +1,89 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1ea50049-3149-4b22-8ab5-6a10eb8e519f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 36.83)
+		(size 25.4 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4d9540bb-34a5-4e40-8044-e87130a7ce60")
+		(property "Sheetname" "MCU"
+			(at 127 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 127 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rplink"
+				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 38.1)
+		(size 27.94 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd9e3916-ffd3-4539-ae44-4c8b24ab5a10")
+		(property "Sheetname" "JTAG"
+			(at 177.8 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 177.8 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rplink"
+				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
