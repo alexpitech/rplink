@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "rplink")(type "KiCad")(uri "${KIPRJMOD}/rplink.pretty")(options "")(descr ""))
+)
