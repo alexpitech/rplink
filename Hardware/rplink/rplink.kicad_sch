@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "1ea50049-3149-4b22-8ab5-6a10eb8e519f")
 	(paper "A4")
 	(lib_symbols
@@ -9,8 +9,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FID"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -19,6 +23,8 @@
 			)
 			(property "Value" "Fiducial"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,47 +33,57 @@
 			)
 			(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Fiducial Marker"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "fiducial marker"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Fiducial*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Fiducial_0_1"
@@ -83,13 +99,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FID"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -98,6 +119,8 @@
 			)
 			(property "Value" "Fiducial"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -106,47 +129,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Fiducial Marker"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "fiducial marker"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Fiducial*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Fiducial_0_1"
@@ -162,6 +195,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -170,8 +204,12 @@
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -180,6 +218,8 @@
 			)
 			(property "Value" "MountingHole"
 				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -188,47 +228,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "MountingHole*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "MountingHole_0_1"
@@ -244,6 +294,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -510,14 +561,18 @@
 		(lib_id "Generic:Fiducial")
 		(at 127 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e740707-886e-4fcd-a2bf-2fc142a91c5c")
 		(property "Reference" "FID2"
 			(at 129.54 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,6 +582,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 129.54 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,33 +593,39 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
 			(at 127 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 127 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "rplink"
 				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
 					(reference "FID2")
 					(unit 1)
@@ -574,14 +637,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 127 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "411c5fc5-a8b2-48b7-9f22-0f9594633adb")
 		(property "Reference" "H2"
 			(at 129.54 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,6 +658,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 129.54 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,33 +669,39 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 127 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 127 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 127 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "rplink"
 				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
 					(reference "H2")
 					(unit 1)
@@ -638,14 +713,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 152.4 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5292f830-bac9-496b-8d90-d83c748f268a")
 		(property "Reference" "H4"
 			(at 154.94 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,6 +734,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 154.94 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,33 +745,39 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 152.4 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "rplink"
 				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
 					(reference "H4")
 					(unit 1)
@@ -702,14 +789,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 114.3 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93302d6c-11c1-45a6-b17a-245eb834bf97")
 		(property "Reference" "H1"
 			(at 116.84 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,6 +810,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 116.84 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -728,33 +821,39 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 114.3 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 114.3 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "rplink"
 				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
 					(reference "H1")
 					(unit 1)
@@ -766,14 +865,18 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 139.7 177.8 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce81fb5f-e1f7-41b0-998b-4e8afe0f25c8")
 		(property "Reference" "H3"
 			(at 142.24 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,6 +886,8 @@
 		)
 		(property "Value" "MountingHole"
 			(at 142.24 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,33 +897,39 @@
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 139.7 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 139.7 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
 			(at 139.7 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "rplink"
 				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
 					(reference "H3")
 					(unit 1)
@@ -830,14 +941,18 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 114.3 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf239713-4b6a-45fe-be30-cd1cb8c1bee5")
 		(property "Reference" "FID1"
 			(at 116.84 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -847,6 +962,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 116.84 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,33 +973,39 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
 			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 114.3 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "rplink"
 				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
 					(reference "FID1")
 					(unit 1)
@@ -894,14 +1017,18 @@
 		(lib_id "Generic:Fiducial")
 		(at 139.7 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d525347d-49fc-4b56-83e5-048a79a4100a")
 		(property "Reference" "FID3"
 			(at 142.24 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,6 +1038,8 @@
 		)
 		(property "Value" "Fiducial"
 			(at 142.24 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,33 +1049,39 @@
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
 			(at 139.7 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 139.7 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Fiducial Marker"
 			(at 139.7 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "rplink"
 				(path "/1ea50049-3149-4b22-8ab5-6a10eb8e519f"
 					(reference "FID3")
 					(unit 1)
@@ -957,17 +1092,23 @@
 	(sheet
 		(at 50.8 114.3)
 		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d4df7b66-bf4c-4903-97c3-c0f879f9e0e2")
 		(property "Sheetname" "PowerSupply"
 			(at 50.8 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -977,6 +1118,8 @@
 		)
 		(property "Sheetfile" "ps.kicad_sch"
 			(at 50.8 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -986,43 +1129,43 @@
 		)
 		(pin "VTGT_CHK" output
 			(at 76.2 129.54 0)
+			(uuid "0b11d54a-4496-45d0-a01d-7bae7236bb37")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0b11d54a-4496-45d0-a01d-7bae7236bb37")
 		)
 		(pin "VOUT_CHK" output
 			(at 76.2 127 0)
+			(uuid "18277ed4-d418-487c-a557-a2986cfc68b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "18277ed4-d418-487c-a557-a2986cfc68b8")
 		)
 		(pin "D_P" bidirectional
 			(at 76.2 121.92 0)
+			(uuid "d2019101-c194-41d7-8ff2-b45a1b453d04")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d2019101-c194-41d7-8ff2-b45a1b453d04")
 		)
 		(pin "D_M" bidirectional
 			(at 76.2 119.38 0)
+			(uuid "65760dec-1c7a-4ab2-a399-ff935380693f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "65760dec-1c7a-4ab2-a399-ff935380693f")
 		)
 		(instances
 			(project "rplink"
@@ -1035,17 +1178,23 @@
 	(sheet
 		(at 50.8 31.75)
 		(size 25.4 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d66bc408-3bff-4772-a29e-77bd502c7f65")
 		(property "Sheetname" "RP2040N"
 			(at 50.8 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,6 +1204,8 @@
 		)
 		(property "Sheetfile" "rp2404n.kicad_sch"
 			(at 50.8 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,183 +1215,183 @@
 		)
 		(pin "DP" bidirectional
 			(at 76.2 83.82 0)
+			(uuid "d559c758-4816-49b8-8f3c-1a2bab3d8e85")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d559c758-4816-49b8-8f3c-1a2bab3d8e85")
 		)
 		(pin "DM" bidirectional
 			(at 76.2 86.36 0)
+			(uuid "f1748f8a-39a7-4d20-b034-b410873bf67a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f1748f8a-39a7-4d20-b034-b410873bf67a")
 		)
 		(pin "TDO_SWO" input
 			(at 76.2 60.96 0)
+			(uuid "fc387fec-600d-42d2-b682-7129460c2cf1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fc387fec-600d-42d2-b682-7129460c2cf1")
 		)
 		(pin "TCK_SWCLK" output
 			(at 76.2 55.88 0)
+			(uuid "a56c520e-d33d-47d6-9bcb-797355749566")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a56c520e-d33d-47d6-9bcb-797355749566")
 		)
 		(pin "TXD" output
 			(at 76.2 40.64 0)
+			(uuid "e19d89f5-d84f-428c-9b34-4ccf19b0af97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e19d89f5-d84f-428c-9b34-4ccf19b0af97")
 		)
 		(pin "RXD" input
 			(at 76.2 45.72 0)
+			(uuid "7e64ee06-964f-4704-8406-b097f04a7989")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7e64ee06-964f-4704-8406-b097f04a7989")
 		)
 		(pin "~{T_RESET}" output
 			(at 76.2 68.58 0)
+			(uuid "c2a35ebe-12c9-4d43-8ea2-4e6216662547")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c2a35ebe-12c9-4d43-8ea2-4e6216662547")
 		)
 		(pin "SWDI" input
 			(at 76.2 53.34 0)
+			(uuid "0283dbf8-2901-472b-9f1b-49ef6dbb5a82")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0283dbf8-2901-472b-9f1b-49ef6dbb5a82")
 		)
 		(pin "TMS_SWDO" bidirectional
 			(at 76.2 48.26 0)
+			(uuid "4f2e3a32-ba5c-4d67-86fc-a981892f6682")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4f2e3a32-ba5c-4d67-86fc-a981892f6682")
 		)
 		(pin "SWDO_OE" output
 			(at 76.2 50.8 0)
+			(uuid "71621957-b196-4695-bdf5-88dca796e3d1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "71621957-b196-4695-bdf5-88dca796e3d1")
 		)
 		(pin "T_TDI" output
 			(at 76.2 63.5 0)
+			(uuid "14fb3e77-2e37-41a5-b373-e687ffd7d255")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "14fb3e77-2e37-41a5-b373-e687ffd7d255")
 		)
 		(pin "TDI_OE" output
 			(at 76.2 66.04 0)
+			(uuid "8b76fd5b-4251-430e-899c-058e1a8527be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8b76fd5b-4251-430e-899c-058e1a8527be")
 		)
 		(pin "TCK_OE" output
 			(at 76.2 58.42 0)
+			(uuid "66b39eac-3dc3-4581-98f8-d7af4074ed40")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "66b39eac-3dc3-4581-98f8-d7af4074ed40")
 		)
 		(pin "ADIN_VTGT" input
 			(at 76.2 78.74 0)
+			(uuid "95142517-395e-48ef-9014-e6b925d954b0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "95142517-395e-48ef-9014-e6b925d954b0")
 		)
 		(pin "ADIN_VOUT" input
 			(at 76.2 81.28 0)
+			(uuid "1afec715-b423-46d5-a9cd-dfd0fc01ffa6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1afec715-b423-46d5-a9cd-dfd0fc01ffa6")
 		)
 		(pin "TXD_OE" output
 			(at 76.2 43.18 0)
+			(uuid "5091acc2-24c5-4343-9128-ac838994f6c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5091acc2-24c5-4343-9128-ac838994f6c1")
 		)
 		(pin "T_RESET_OE" output
 			(at 76.2 71.12 0)
+			(uuid "2b7ba3a4-65c6-4be1-b6ac-27c4a0410b1d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2b7ba3a4-65c6-4be1-b6ac-27c4a0410b1d")
 		)
 		(pin "T_RESET_CHK" input
 			(at 76.2 73.66 0)
+			(uuid "df47a7f2-7304-41d6-aec5-03dbd58700a7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "df47a7f2-7304-41d6-aec5-03dbd58700a7")
 		)
 		(instances
 			(project "rplink"
@@ -1253,17 +1404,23 @@
 	(sheet
 		(at 152.4 33.02)
 		(size 31.75 55.88)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fd9e3916-ffd3-4539-ae44-4c8b24ab5a10")
 		(property "Sheetname" "JTAG"
 			(at 152.4 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1273,6 +1430,8 @@
 		)
 		(property "Sheetfile" "jtag.kicad_sch"
 			(at 152.4 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,143 +1441,143 @@
 		)
 		(pin "T_TDI" input
 			(at 152.4 63.5 180)
+			(uuid "96efd513-a7fc-4fee-9b66-59e53ccefa4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "96efd513-a7fc-4fee-9b66-59e53ccefa4b")
 		)
 		(pin "T_TCK_SWCLK" input
 			(at 152.4 55.88 180)
+			(uuid "983678b7-8a8b-4506-843d-2e99a8cf6f83")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "983678b7-8a8b-4506-843d-2e99a8cf6f83")
 		)
 		(pin "T_TMS_SWDIO" input
 			(at 152.4 48.26 180)
+			(uuid "d77f4bf6-609d-4d87-988d-75ea1d2b4172")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d77f4bf6-609d-4d87-988d-75ea1d2b4172")
 		)
 		(pin "T_TDO_SWO" output
 			(at 152.4 60.96 180)
+			(uuid "6115e697-cbcc-4a5d-bdf2-7222595a004f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6115e697-cbcc-4a5d-bdf2-7222595a004f")
 		)
 		(pin "~{T_RESET}" input
 			(at 152.4 68.58 180)
+			(uuid "184117e1-2b0d-4bfa-9c22-fc16b034965e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "184117e1-2b0d-4bfa-9c22-fc16b034965e")
 		)
 		(pin "T_SWD_OE" input
 			(at 152.4 50.8 180)
+			(uuid "0c653723-5c45-46a3-803d-1ad9d1577377")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0c653723-5c45-46a3-803d-1ad9d1577377")
 		)
 		(pin "T_TCK_EN" input
 			(at 152.4 58.42 180)
+			(uuid "726d9257-1f85-4d93-8b86-2642d235cca9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "726d9257-1f85-4d93-8b86-2642d235cca9")
 		)
 		(pin "T_RESET_CHK" output
 			(at 152.4 73.66 180)
+			(uuid "e08e0a78-6583-42a7-925e-34a66665a2d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e08e0a78-6583-42a7-925e-34a66665a2d7")
 		)
 		(pin "T_TDI_EN" input
 			(at 152.4 66.04 180)
+			(uuid "16548448-6cc8-48f9-9012-a23fd5445a19")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "16548448-6cc8-48f9-9012-a23fd5445a19")
 		)
 		(pin "T_RESET_EN" input
 			(at 152.4 71.12 180)
+			(uuid "6a9bb66c-2005-4623-bf90-af7eecb154df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6a9bb66c-2005-4623-bf90-af7eecb154df")
 		)
 		(pin "T_TXD_EN" input
 			(at 152.4 43.18 180)
+			(uuid "79b27003-2085-41b3-8686-b9382c314ab1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "79b27003-2085-41b3-8686-b9382c314ab1")
 		)
 		(pin "T_RXD" output
 			(at 152.4 45.72 180)
+			(uuid "ec68ef5b-c26f-4c25-a0cf-e590fc2952a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ec68ef5b-c26f-4c25-a0cf-e590fc2952a8")
 		)
 		(pin "T_TXD" input
 			(at 152.4 40.64 180)
+			(uuid "16dc5e99-6f8d-492c-bea3-8141ff8a09c0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "16dc5e99-6f8d-492c-bea3-8141ff8a09c0")
 		)
 		(pin "T_SWDIN" output
 			(at 152.4 53.34 180)
+			(uuid "db10c728-faf2-4c7b-88b8-05e2fd67119c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "db10c728-faf2-4c7b-88b8-05e2fd67119c")
 		)
 		(instances
 			(project "rplink"
@@ -1433,4 +1592,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
